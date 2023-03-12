@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Card({ food }) {
+const Card = ({ food }) => {
   return (
     <div className="container-fluid">
       <div className="row justify-content-center">
@@ -26,4 +26,6 @@ export default function Card({ food }) {
       </div>
     </div>
   );
-}
+};
+
+export default Card;
